@@ -1,0 +1,116 @@
+{
+    "404": {
+        "msg": "This page doesn't seem to exist...",
+        "msgButton": "Return to homepage"
+    },
+    "login": {
+        "title": "Log In",
+        "email": "Email",
+        "emailPlaceholder": "first.last@upc.edu",
+        "pwd": "Password",
+        "access": "Log In",
+        "msgError": "Invalid credentials",
+        "verifiedOk": "Access verified",
+        "sessionOut": "Session closed"
+    },
+    "home": {
+        "title": "The Repository of Teaching Materials for Systems Engineering",
+        "cursos": {
+            "quad": "Semester",
+            "optativa": "Optional",
+            "optatives": "Optional",
+            "primer": "1st Course",
+            "segon": "2nd Course",
+            "tercer": "3rd Course",
+            "quart": "4th Course"
+        }
+    },
+    "assig": {
+        "tabGroup": {
+            "Info": "Info",
+            "Teoria": "Theory",
+            "Pràctiques": "Practices",
+            "Projecte": "Project"
+        },
+        "section": {
+            "name": {
+                "Continguts": "Contents",
+                "Guia docent": "Teaching Guide",
+                "Exàmens": "Exams",
+                "Presentacions": "Presentations",
+                "Exercicis": "Exercises",
+                "Apunts": "Notes"
+            },
+            "modal": {
+                "msg": "Are you sure you want to delete this resource?",
+                "accept": "Accept",
+                "cancel": "Cancel"
+            },
+            "upload": {
+                "msg": "Click to upload",
+                "msgExtra": "or drag and drop files",
+                "msgButton": "Create",
+                "msgUplading": "Uploading",
+                "msgCancel": "Cancel",
+                "inputPlaceholder": "Name"
+            },
+            "files": {
+                "title": "Files",
+                "info": "It seems there are no files",
+                "download": "Download"
+            },
+            "dirs": {
+                "title": "Directories",
+                "info": "It seems there are no directories",
+                "enter": "Enter"
+            }
+        }
+    },
+    "navbar": {
+        "logIn": "Log In",
+        "logOut": "Log Out",
+        "new": "New",
+        "assig": "Subjects",
+        "tools": "Tools",
+        "searcher": "Search"
+    },
+    "footer": {
+        "copy": "All rights reserved",
+        "privacy": "Privacy Policy"
+    },
+    "tools": {
+        "title": "Working Environment",
+        "subtitle": "What are the reference tools?",
+        "info": "As a skilled engineering professional, it is important to master the tools of the trade. Below you will find the reference tools for the degree program. Proficiency in these reference tools is a cross-cutting competency acquired in various courses. These tools can be found in the computer labs of the school, and you also need to install them on your personal computer.",
+        "items": {
+            "GNU/Linux": {
+                "subtitle": "Operating System",
+                "description": "GNU/Linux is an operating system known for its open-source nature and flexibility. It is built on the Linux kernel and offers a wide range of distributions or versions to choose from. Two popular distributions are Ubuntu and Debian."
+            },
+            "GNU Emacs": {
+                "subtitle": "Text Editor",
+                "description": "GNU Emacs is a powerful and customizable text editor that is part of the GNU software family. It is known for its flexibility and ability to adapt to individual users' needs. This editor offers a wide range of features and plugins, allowing developers and Emacs users to fully customize their working environment."
+            },
+            "LaTeX": {
+                "subtitle": "Document Editing System",
+                "description": "LaTeX is a widely used document editing system in academic and scientific fields. It is known for its ability to produce high-quality typographic documents, especially for technical documents such as scientific articles, reports, theses, and books."
+            },
+            "Subversion & OpenProject": {
+                "subtitle": "Version Control and Project Management",
+                "description": "Subversion is a version control system that allows you to manage and track changes made to files in a project, while OpenProject is a project management tool with an intuitive interface and advanced features. With Subversion, developers can collaborate efficiently and maintain a history of changes, while OpenProject provides tools for planning, tracking, and collaboration in projects."
+            }
+        },
+        "links": {
+            "Ubuntu": "Ubuntu",
+            "Debian": "Debian",
+            "OfficalWeb": "Official Website",
+            "EmacsTutorial": "Tutorial: Emacs The Best Python Editor?",
+            "LatexProject": "LaTeX Project",
+            "LatexAuctex": "Extension Package: AuCTeX",
+            "TFGtemplate": "Template for Final Degree Project",
+            "Subversion": "Subversion",
+            "OpenProject": "OpenProject",
+            "Escriny": "Escriny"
+        }
+    }
+}

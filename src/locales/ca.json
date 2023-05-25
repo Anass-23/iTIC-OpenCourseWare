@@ -1,0 +1,116 @@
+{
+    "404": {
+        "msg": "Sembla que aquesta pàgina no existeix…",
+        "msgButton": "Torna a l'inici"
+    },
+    "login": {
+        "title": "Identificació",
+        "email": "Correu",
+        "emailPlaceholder": "nom.cognom@upc.edu",
+        "pwd": "Contrasenya",
+        "access": "Accedir",
+        "msgError": "Credencials incorrectes",
+        "verifiedOk": "Accés verificat",
+        "sessionOut": "S'ha tancat la sessió"
+    },
+    "home": {
+        "title": "El dipòsit de material docent de l'Enginyeria de Sistemes TIC",
+        "cursos": {
+            "quad": "Quadrimestre",
+            "optativa": "Optativa",
+            "optatives": "Optatives",
+            "primer": "Primer",
+            "segon": "Segon",
+            "tercer": "Tercer",
+            "quart": "Quart"
+        }
+    },
+    "assig": {
+        "tabGroup": {
+            "Info": "Info",
+            "Teoria": "Teoria",
+            "Pràctiques": "Pràctiques",
+            "Projecte": "Projecte"
+        },
+        "section": {
+            "name": {
+                "Continguts": "Continguts",
+                "Guia docent": "Guia docent",
+                "Exàmens": "Exàmens",
+                "Presentacions": "Presentacions",
+                "Exercicis": "Exercicis",
+                "Apunts": "Apunts"
+            },
+            "modal": {
+                "msg": "Esteu segur que voleu eliminar aquest recurs?",
+                "accept": "Accepta",
+                "cancel": "Cancel·la"
+            },
+            "upload": {
+                "msg": "Feu clic per carregar",
+                "msgExtra": "o arrossegueu i deixeu anar fitxers",
+                "msgButton": "Crea",
+                "msgUplading": "Carregant",
+                "msgCancel": "Cancel·la",
+                "inputPlaceholder": "Nom"
+            },
+            "files": {
+                "title": "Fitxers",
+                "info": "Sembla que no hi ha fitxers",
+                "download": "Descarrega"
+            },
+            "dirs": {
+                "title": "Directoris",
+                "info": "Sembla que no hi ha directoris",
+                "enter": "Entra"
+            }
+        }
+    },
+    "navbar": {
+        "logIn": "Accedir",
+        "logOut": "Sortir",
+        "new": "Nou",
+        "assig": "Assignatures",
+        "tools": "Eines",
+        "searcher": "Cercador"
+    },
+    "footer": {
+        "copy": "Tots els drets reservats",
+        "privacy": "Política de privadesa"
+    },
+    "tools": {
+        "title": "Entorn de treball",
+        "subtitle": "Quines són les eines de referència?",
+        "info": "Com a bon professional de l'enginyeria us cal dominar les eines de l'ofici. A continuació hi trobareu les eines de referència de la titulació. El domini d'aquestes eines de referència de la titulació. El domini d'aquestes eines és una competència transversal que s'adquireix en diverses assignatures, Aquestes eines les trobareu a les aules informàtiques de l'escola i, a més, us cal instal·lar-les al vostre ordinador personal.",
+        "items": {
+            "GNU/Linux": {
+                "subtitle": "Sistema operatiu",
+                "description": "GNU/Linux és un sistema operatiu conegut per la seva naturalesa de codi obert i flexibilitat. Està construït sobre el nucli de Linux i ofereix una àmplia gamma de distribucions o versions per triar. Dues distribucions populars són Ubuntu i Debian."
+            },
+            "GNU Emacs": {
+                "subtitle": "Editor de text",
+                "description": "GNU Emacs és un editor de text potent i personalitzable que forma part de la família de programari GNU. És conegut per la seva flexibilitat i capacitat per adaptar-se a les necessitats individuals dels usuaris. Aquest editor ofereix una àmplia gamma de funcionalitats i complements, permetent als desenvolupadors i als usuaris d'Emacs personalitzar completament l'entorn de treball."
+            },
+            "LaTeX": {
+                "subtitle": "Sistema d'edició de documents",
+                "description": "LaTeX és un sistema d'edició de documents amplament utilitzat en àmbits acadèmics i científics. És conegut per la seva capacitat per produir documents de gran qualitat tipogràfica, especialment per a documents tècnics, com articles científics, informes, tesis i llibres."
+            },
+            "Subversion & OpenProject": {
+                "subtitle": "Control de versions i gestió de projectes",
+                "description": "Subversion és un sistema de control de versions que permet gestionar i rastrejar els canvis realitzats en els fitxers d'un projecte, mentre que OpenProject és una eina de gestió de projectes amb una interfície intuïtiva i funcionalitats avançades. Amb Subversion, els desenvolupadors poden col·laborar de manera eficient i mantenir un historial de canvis, mentre que OpenProject ofereix eines per a la planificació, seguiment i col·laboració en projectes."
+            }
+        },
+        "links": {
+            "Ubuntu": "Ubuntu",
+            "Debian": "Debian",
+            "OfficalWeb": "Pàgina oficial",
+            "EmacsTutorial": "Tutorial: Emacs el millor editor Python?",
+            "LatexProject": "Projecte LaTeX",
+            "LatexAuctex": "Paquet d'extensions: AuCTeX",
+            "TFGtemplate": "Plantilla pel TFG",
+            "Subversion": "Subversion",
+            "OpenProject": "OpenProject",
+            "Escriny": "Escriny"
+        }
+    }
+}

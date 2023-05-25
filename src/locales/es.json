@@ -1,0 +1,116 @@
+{
+    "404": {
+        "msg": "Parece que esta página no existe…",
+        "msgButton": "Vuelve al inicio"
+    },
+    "login": {
+        "title": "Identificación",
+        "email": "Correo",
+        "emailPlaceholder": "nombre.apellido@upc.edu",
+        "pwd": "Contraseña",
+        "access": "Acceder",
+        "msgError": "Credenciales incorrectas",
+        "verifiedOk": "Acceso verificado",
+        "sessionOut": "Se ha cerrado la sesión"
+    },
+    "home": {
+        "title": "El depósito de material docente de la Ingeniería de Sistemas TIC",
+        "cursos": {
+            "quad": "Cuatrimestre",
+            "optativa": "Optativa",
+            "optatives": "Optativas",
+            "primer": "Primero",
+            "segon": "Segundo",
+            "tercer": "Tercero",
+            "quart": "Cuarto"
+        }
+    },
+    "assig": {
+        "tabGroup": {
+            "Info": "Info",
+            "Teoria": "Teoría",
+            "Pràctiques": "Prácticas",
+            "Projecte": "Proyecto"
+        },
+        "section": {
+            "name": {
+                "Continguts": "Contenidos",
+                "Guia docent": "Guía docente",
+                "Exàmens": "Exámenes",
+                "Presentacions": "Presentaciones",
+                "Exercicis": "Ejercicios",
+                "Apunts": "Apuntes"
+            },
+            "modal": {
+                "msg": "¿Está seguro de querer eliminar este recurso?",
+                "accept": "Aceptar",
+                "cancel": "Cancelar"
+            },
+            "upload": {
+                "msg": "Haga clic para cargar",
+                "msgExtra": "o arrastra y suelta archivos",
+                "msgButton": "Crear",
+                "msgUplading": "Subiendo",
+                "msgCancel": "Cancelar",
+                "inputPlaceholder": "Nombre"
+            },
+            "files": {
+                "title": "Archivos",
+                "info": "Parece ser que no hay archivos",
+                "download": "Descargar"
+            },
+            "dirs": {
+                "title": "Directorios",
+                "info": "Parece ser que no hay directorios",
+                "enter": "Entrar"
+            }
+        }
+    },
+    "navbar": {
+        "logIn": "Acceder",
+        "logOut": "Salir",
+        "new": "Nuevo",
+        "assig": "Asignaturas",
+        "tools": "Herramientas",
+        "searcher": "Buscador"
+    },
+    "footer": {
+        "copy": "Todos los derechos reservados",
+        "privacy": "Política de privacidad"
+    },
+    "tools": {
+        "title": "Entorno de trabajo",
+        "subtitle": "¿Cuáles son las herramientas de referencia?",
+        "info": "Como buen profesional de la ingeniería, es necesario dominar las herramientas del oficio. A continuación encontrarás las herramientas de referencia de la titulación. El dominio de estas herramientas es una competencia transversal que se adquiere en varias asignaturas. Estas herramientas se encuentran en las aulas informáticas de la escuela y también debes instalarlas en tu ordenador personal.",
+        "items": {
+            "GNU/Linux": {
+                "subtitle": "Sistema operativo",
+                "description": "GNU/Linux es un sistema operativo conocido por su naturaleza de código abierto y flexibilidad. Está construido sobre el núcleo de Linux y ofrece una amplia gama de distribuciones o versiones para elegir. Dos distribuciones populares son Ubuntu y Debian."
+            },
+            "GNU Emacs": {
+                "subtitle": "Editor de texto",
+                "description": "GNU Emacs es un potente y personalizable editor de texto que forma parte de la familia de software GNU. Es conocido por su flexibilidad y capacidad para adaptarse a las necesidades individuales de los usuarios. Este editor ofrece una amplia gama de funcionalidades y complementos, permitiendo a los desarrolladores y usuarios de Emacs personalizar completamente su entorno de trabajo."
+            },
+            "LaTeX": {
+                "subtitle": "Sistema de edición de documentos",
+                "description": "LaTeX es un sistema de edición de documentos ampliamente utilizado en ámbitos académicos y científicos. Es conocido por su capacidad para producir documentos de gran calidad tipográfica, especialmente para documentos técnicos como artículos científicos, informes, tesis y libros."
+            },
+            "Subversion & OpenProject": {
+                "subtitle": "Control de versiones y gestión de proyectos",
+                "description": "Subversion es un sistema de control de versiones que permite gestionar y rastrear los cambios realizados en los archivos de un proyecto, mientras que OpenProject es una herramienta de gestión de proyectos con una interfaz intuitiva y funcionalidades avanzadas. Con Subversion, los desarrolladores pueden colaborar de manera eficiente y mantener un historial de cambios, mientras que OpenProject ofrece herramientas para la planificación, seguimiento y colaboración en proyectos."
+            }
+        },
+        "links": {
+            "Ubuntu": "Ubuntu",
+            "Debian": "Debian",
+            "OfficalWeb": "Página oficial",
+            "EmacsTutorial": "Tutorial: Emacs el mejor editor Python?",
+            "LatexProject": "Proyecto LaTeX",
+            "LatexAuctex": "Paquete de extensiones: AuCTeX",
+            "TFGtemplate": "Plantilla para TFG",
+            "Subversion": "Subversion",
+            "OpenProject": "OpenProject",
+            "Escriny": "Escriny"
+        }
+    }
+}
