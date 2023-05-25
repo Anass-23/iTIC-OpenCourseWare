@@ -80,7 +80,11 @@ export const newFolder = async (url: string, folderName: string): Promise<any> =
 
 export const getSections = async (path: string): Promise<Section[]> => {
   try {
-    const response = await fetch(`${BASE_URL}/${path}`);
+    const response = await fetch(`${BASE_URL}/${path}`, {
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    });
     const data = await response.json();
     if (!Array.isArray(data)) {
       throw new Error('Resource not found');
