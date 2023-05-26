@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import TabGroup from "../components/TabGroup"
 import TabGroupDropdown from "../components/TabGroupDropdown";
 import Accordion from "../components/Accordion/Accordion";
-// import BreadCrumb from "../components/Breadcrumb";
+import BreadCrumb from "../components/Breadcrumb";
 import { FileLink } from "../components/Accordion/Files";
 import { DirectoryLink } from "../components/Accordion/Directories";
 import { getSections } from '../services/files';
@@ -24,10 +24,11 @@ interface HistoryItem {
 
 export default function Course() {
   const location = useLocation();
-  const [sections, setSections] = useState<Section[]>([]);
-  const [refetch, setRefetch]   = useState<boolean>(false);
-  const [history, setHistory]   = useState<HistoryItem[]>([]);
-  const [error, setError]       = useState<boolean>(false);
+  const [sections, setSections]   = useState<Section[]>([]);
+  const [refetch, setRefetch]     = useState<boolean>(false);
+  const [history, setHistory]     = useState<HistoryItem[]>([]);
+  const [error, setError]         = useState<boolean>(false);
+  const [errorCode, setErrorCode] = useState<number>(-1);
 
   const handleBreadcrumbClick = (href: string, label: string) => {
     const newHistory: HistoryItem[] = [...history, { href, label }];
@@ -41,8 +42,16 @@ export default function Course() {
         const response = await getSections(pathname);
         setSections(response);
         setError(false);
-      } catch (error) {
-        // console.log(error);
+      } catch (error: any) {
+        console.log(error);
+        console.log('Message:', error.message);
+
+        if (error.message === "Error: Resource not found") {
+          setErrorCode(404);
+        } else {
+          setErrorCode(500);
+        }
+
         setError(true);
       }
     };
@@ -55,7 +64,7 @@ export default function Course() {
   }
 
   if (error) {
-    return  <NotFound />
+    return  <NotFound errorCode={errorCode}/>
   }
 
   return (
@@ -69,8 +78,12 @@ export default function Course() {
       <TabGroupDropdown assignatura={location.pathname.split('/')[1]} />
     </div>
 
-    {/* No aporta gaire utilitat, problemes en versió Phone tmb */}
-    {/* <BreadCrumb history={history} /> */} 
+    <BreadCrumb 
+      id={location.pathname.split('/')[1]}
+      section={location.pathname.split('/')[2]}
+      path={location.pathname.split('/').slice(3)}
+    /> 
+
 
     {sections
     .sort((a, b) => (b.files.length + b.dirs.length) - (a.files.length + a.dirs.length))

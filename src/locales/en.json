@@ -3,6 +3,9 @@
         "msg": "This page doesn't seem to exist...",
         "msgButton": "Return to homepage"
     },
+    "500": {
+        "msg": "Internal Server Error"
+    },
     "login": {
         "title": "Log In",
         "email": "Email",

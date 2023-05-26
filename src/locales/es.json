@@ -3,6 +3,9 @@
         "msg": "Parece que esta página no existe…",
         "msgButton": "Vuelve al inicio"
     },
+    "500": {
+        "msg": "Error interno del servidor"
+    },
     "login": {
         "title": "Identificación",
         "email": "Correo",

@@ -39,6 +39,10 @@ export default function TabGroupDropdown({ assignatura }: Props) {
     setActiveTab(activeIndex);
   }
 
+  if (activeTab === -1) {
+    return  null
+  }
+
   const handleClick = () => { setShowDropdown(!showDropdown) }
 
   return (

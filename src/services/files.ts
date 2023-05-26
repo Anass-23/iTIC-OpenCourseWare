@@ -91,9 +91,9 @@ export const getSections = async (path: string): Promise<Section[]> => {
     }
     // console.log(data);
     return data;
-  } catch (error) {
+  } catch (error: any) {
     // console.error(error);
-    throw new Error(`API request failed: ${error}`);
+    throw new Error(error);
   }
 };
 

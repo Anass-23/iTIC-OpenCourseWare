@@ -3,6 +3,9 @@
         "msg": "Sembla que aquesta pàgina no existeix…",
         "msgButton": "Torna a l'inici"
     },
+    "500": {
+        "msg": "Error intern del servidor"
+    },
     "login": {
         "title": "Identificació",
         "email": "Correu",

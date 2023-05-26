@@ -36,7 +36,7 @@ function App() {
             <Route path="/buscador" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/*" element={<Course />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<NotFound errorCode={404}/>} />
           </Routes>
         </div>
 

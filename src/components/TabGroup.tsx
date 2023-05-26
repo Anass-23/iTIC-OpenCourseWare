@@ -37,6 +37,10 @@ export default function TabGroup ({ assignatura }: Props) {
       setActiveTab(activeIndex);
     }
     
+    if (activeTab === -1) {
+      return  null
+    }
+
     return (
         <div className="flex justify-center space-x-4">
           
