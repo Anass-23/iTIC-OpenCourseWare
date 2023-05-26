@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { AuthProvider } from './hooks/AuthContext';
 import { isCordova } from './utils';
 
@@ -23,6 +24,9 @@ if (isCordova()) {
 } else {
   startApp();
 }
+
+serviceWorkerRegistration.register();
+
 
 // // if (window.cordova) {  
 // if ((window as any).cordova) {
